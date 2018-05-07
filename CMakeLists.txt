@@ -1,5 +1,5 @@
 cmake_minimum_required (VERSION 2.6)
-link_libraries(curl)
+link_libraries(curl uci)
 project(4ipnet-cmake)
 aux_source_directory(./src src)
 add_executable(4ipnet-cmake ${src})
